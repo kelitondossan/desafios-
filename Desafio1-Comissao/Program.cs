@@ -52,10 +52,6 @@ namespace Desafio1Comissao
             }
         }
 
-        // Regra de comissao por venda:
-        //   < R$ 100,00          -> sem comissao
-        //   >= R$ 100 e < R$ 500 -> 1%
-        //   >= R$ 500            -> 5%
         static decimal CalcularComissao(decimal valorVenda)
         {
             if (valorVenda < 100m)
