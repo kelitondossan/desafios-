@@ -101,9 +101,6 @@ namespace Desafio2Estoque
 
             Console.WriteLine("Programa encerrado.");
         }
-
-        // Registra a movimentacao com identificador unico e descricao,
-        // atualiza o saldo e devolve a quantidade final do produto.
         static int RegistrarMovimentacao(Produto produto, string tipo, int quantidade, string descricao)
         {
             if (tipo == "E")
