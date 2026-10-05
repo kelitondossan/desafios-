@@ -6,7 +6,6 @@ namespace Desafio3Juros
 {
     class Program
     {
-        // Multa/juros de 2,5% ao dia sobre o valor, conforme enunciado.
         const decimal TaxaJurosDiaria = 0.025m;
 
         static void Main(string[] args)
